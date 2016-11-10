@@ -10,6 +10,10 @@
     "start": "tsc -w",
     "build": "tsc"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mkusher/ts-checker.git"
+  },
   "author": "Aleh Kashnikau<aleh.kashnikau@gmail.com>",
   "license": "MIT",
   "devDependencies": {
