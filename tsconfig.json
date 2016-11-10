@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "noImplicitAny": true,
+    "target": "ES5",
+    "rootDir": "./src",
+    "sourceMap": true,
+    "outDir": "./lib",
+    "moduleResolution": "node",
+    "lib": [
+      "es2015",
+      "es5",
+      "scripthost"
+    ]
+  },
+  "include": [
+    "src/index.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}

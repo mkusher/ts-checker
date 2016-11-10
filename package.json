@@ -1,0 +1,19 @@
+{
+  "name": "ts-type-checker",
+  "version": "0.0.0",
+  "description": "",
+  "main": "lib/index.js",
+  "bin": {
+    "typecheck": "bin/typecheck"
+  },
+  "scripts": {
+    "start": "tsc -w",
+    "build": "tsc"
+  },
+  "author": "Aleh Kashnikau<aleh.kashnikau@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^6.0.46",
+    "typescript": "^2.0.6"
+  }
+}
